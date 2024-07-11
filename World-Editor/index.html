@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>World Editor</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>World Editor</h1>
+    <canvas id="myCanvas"></canvas>
+    <div id="controls">
+      <button onclick="save()">💾</button>
+      <button onclick="dispose()">🗑️</button>
+      <button onclick="openOsmPanel()">🗺️</button>
+      <button><a href="/">🕹️</a></button>
+      &nbsp;
+      <button id="graphBtn" onclick="setMode('graph')">🌐</button>
+      <button id="stopBtn" onclick="setMode('stop')">🛑</button>
+      <button id="yieldBtn" onclick="setMode('yield')">⚠️</button>
+      <button id="crossingBtn" onclick="setMode('crossing')">🚸</button>
+      <button id="parkingBtn" onclick="setMode('parking')">🅿️</button>
+      <button id="lightBtn" onclick="setMode('light')">🚥</button>
+      <button id="startBtn" onclick="setMode('start')">🚗</button>
+      <button id="targetBtn" onclick="setMode('target')">🎯</button>
+
+      <div id="osmPanel" style="display: none">
+        <textarea
+          id="osmData"
+          rows="10"
+          cols="50"
+          placeholder="Paste OSM data here"
+        ></textarea>
+        <div>
+          <button onclick="parseOsmData()">✔️</button>
+          <button onclick="closeOsmPanel()">❌</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/world.js"></script>
+    <script src="scripts/viewport.js"></script>
+    <!-- markings -->
+    <script src="scripts/markings/marking.js"></script>
+    <script src="scripts/markings/stop.js"></script>
+    <script src="scripts/markings/crossing.js"></script>
+    <script src="scripts/markings/start.js"></script>
+    <script src="scripts/markings/target.js"></script>
+    <script src="scripts/markings/parking.js"></script>
+    <script src="scripts/markings/light.js"></script>
+    <script src="scripts/markings/yield.js"></script>
+    <!-- editor -->
+    <script src="scripts/editors/graphEditor.js"></script>
+    <script src="scripts/editors/markingEditor.js"></script>
+    <script src="scripts/editors/parkingEditor.js"></script>
+    <script src="scripts/editors/lightEditor.js"></script>
+    <script src="scripts/editors/yieldEditor.js"></script>
+    <script src="scripts/editors/targetEditor.js"></script>
+    <script src="scripts/editors/stopEditor.js"></script>
+    <script src="scripts/editors/crossingEditor.js"></script>
+    <script src="scripts/editors/startEditor.js"></script>
+    <!-- items -->
+    <script src="scripts/items/tree.js"></script>
+    <script src="scripts/items/building.js"></script>
+    <!-- logics -->
+    <script src="scripts/maths/graph.js"></script>
+    <script src="scripts/maths/osm.js"></script>
+    <script src="scripts/maths/utils.js"></script>
+    <script src="scripts/maths/primitives/point.js"></script>
+    <script src="scripts/maths/primitives/segment.js"></script>
+    <script src="scripts/maths/primitives/polygon.js"></script>
+    <script src="scripts/maths/primitives/envelope.js "></script>
+
+    <script src="save-worlds/path-finding.world"></script>
+    <!-- <script src="save-worlds/world-4.world"></script> -->
+    <script>
+      myCanvas.width = 600;
+      myCanvas.height = 600;
+
+      const ctx = myCanvas.getContext("2d");
+      const graph = world.graph;
+      const viewport = new Viewport(myCanvas, world.zoom, world.offset);
+      let oldGraphHash = graph.hash();
+
+      const tools = {
+        graph: {
+          button: graphBtn,
+          editor: new GraphEditor(viewport, graph),
+        },
+        stop: {
+          button: stopBtn,
+          editor: new StopEditor(viewport, world),
+        },
+        crossing: {
+          button: crossingBtn,
+          editor: new CrossingEditor(viewport, world),
+        },
+        start: {
+          button: startBtn,
+          editor: new StartEditor(viewport, world),
+        },
+        target: {
+          button: targetBtn,
+          editor: new TargetEditor(viewport, world),
+        },
+        parking: {
+          button: parkingBtn,
+          editor: new ParkingEditor(viewport, world),
+        },
+        light: {
+          button: lightBtn,
+          editor: new LightEditor(viewport, world),
+        },
+        yield: {
+          button: yieldBtn,
+          editor: new YieldEditor(viewport, world),
+        },
+      };
+      setMode("graph");
+
+      animate();
+      function animate() {
+        viewport.reset();
+        if (oldGraphHash != graph.hash()) {
+          world.generate();
+          oldGraphHash = graph.hash();
+        }
+        const viewPoint = scale(viewport.getOffset(), -1);
+        world.draw(ctx, viewPoint);
+        ctx.globalAlpha = 0.3;
+        for (const tool of Object.values(tools)) {
+          tool.editor.draw();
+        }
+        requestAnimationFrame(animate);
+      }
+
+      function dispose() {
+        tools.graph.editor.dispose();
+        world.markings.length = 0;
+      }
+
+      function save() {
+        world.zoom = viewport.zoom;
+        world.offset = viewport.offset;
+
+        const element = document.createElement("a");
+        element.setAttribute(
+          "href",
+          "data:application/json;charset=utf-8," +
+            encodeURIComponent(
+              "const world = World.fromJSON(" + JSON.stringify(world) + ");"
+            )
+        );
+        const fileName = "untitled.world";
+        element.setAttribute("download", fileName);
+        element.click();
+        localStorage.setItem("world", JSON.stringify(world));
+      }
+
+      function setMode(mode) {
+        dissableEditors();
+        tools[mode].button.style.backgroundColor = "blue";
+        tools[mode].button.style.filter = "grayscale(0%)";
+        tools[mode].editor.enable();
+      }
+
+      function dissableEditors() {
+        for (const tool of Object.values(tools)) {
+          tool.button.style.backgroundColor = "gray";
+          tool.button.style.filter = "grayscale(100%)";
+          tool.editor.disable();
+        }
+      }
+
+      function openOsmPanel() {
+        osmPanel.style.display = "block";
+      }
+
+      function closeOsmPanel() {
+        osmPanel.style.display = "none";
+      }
+
+      function parseOsmData() {
+        dispose();
+        if (osmData.value == "") {
+          alert("No data to parse");
+          return;
+        }
+        const res = Osm.parseRoads(JSON.parse(osmData.value));
+        graph.points = res.points;
+        graph.segments = res.segments;
+        closeOsmPanel();
+      }
+    </script>
+  </body>
+</html>

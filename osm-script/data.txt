@@ -1,0 +1,2503 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.1 084b4234",
+  "osm3s": {
+    "timestamp_osm_base": "2024-04-13T13:13:28Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 5169163,
+  "nodes": [
+    60182447,
+    1044998010,
+    1044998084,
+    638992139,
+    5144990348,
+    5144990345,
+    631754218,
+    9817705207,
+    1906501237,
+    631754221,
+    9670060996,
+    3713701373,
+    35132092,
+    3713701379,
+    4444070887,
+    4443957503,
+    4443957506
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Rantakatu",
+    "name:fi": "Rantakatu",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 22491063,
+  "nodes": [
+    3788854407,
+    4443957520,
+    241418981
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "highway": "primary",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Suvantokatu",
+    "name:fi": "Suvantokatu",
+    "oneway": "yes",
+    "source": "MML ORTO",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23330789,
+  "nodes": [
+    11745466,
+    1002940165
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "bridge": "yes",
+    "highway": "tertiary",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "30",
+    "name": "Siltakatu",
+    "name:fi": "Siltakatu",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23330790,
+  "nodes": [
+    252035912,
+    1002940109,
+    5045445108
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Siltakatu",
+    "name:fi": "Siltakatu",
+    "parking:lane:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23401979,
+  "nodes": [
+    253332473,
+    631754214,
+    278124452,
+    631754215,
+    3713701386,
+    278124451,
+    3713701393,
+    944896463,
+    614482642,
+    253548585
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Torikatu",
+    "name:fi": "Torikatu",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23446833,
+  "nodes": [
+    241418981,
+    633440013
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "40",
+    "maxweight:signed": "no",
+    "name": "Suvantokatu",
+    "name:fi": "Suvantokatu",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24000535,
+  "nodes": [
+    260236511,
+    798645225,
+    260236512
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Keskuskuja",
+    "name:fi": "Keskuskuja",
+    "parking:lane:left": "no",
+    "parking:lane:right": "separate",
+    "sidewalk": "both",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26133023,
+  "nodes": [
+    286098432,
+    2409765960
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "bridge": "movable",
+    "bridge:movable": "bascule",
+    "highway": "tertiary",
+    "lanes": "2",
+    "layer": "1",
+    "maxbogieweight": "18",
+    "maxspeed": "30",
+    "name": "Siltakatu",
+    "name:fi": "Siltakatu",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 41946170,
+  "nodes": [
+    5045445117,
+    11524139538,
+    5045445098,
+    5045445099,
+    5045445104,
+    5045445116
+  ],
+  "tags": {
+    "highway": "secondary",
+    "junction": "roundabout",
+    "lane_markings": "no",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 41946173,
+  "nodes": [
+    519639131,
+    348429012,
+    519639130
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Koskikatu",
+    "name:fi": "Koskikatu",
+    "parking:lane:both": "no",
+    "smoothness": "excellent",
+    "surface": "paving_stones",
+    "traffic_calming": "table"
+  }
+},
+{
+  "type": "way",
+  "id": 41946174,
+  "nodes": [
+    6077560315,
+    3713113444,
+    252035911
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Koskikatu",
+    "name:fi": "Koskikatu",
+    "parking:lane:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 43967334,
+  "nodes": [
+    416615361,
+    257341180,
+    3713113447
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "highway": "secondary",
+    "lanes": "2",
+    "maxspeed": "40",
+    "name": "Rantakatu",
+    "name:fi": "Rantakatu",
+    "parking:lane:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 43967335,
+  "nodes": [
+    252035910,
+    278129266,
+    9817705206,
+    1002940804
+  ],
+  "tags": {
+    "highway": "secondary",
+    "lanes": "3",
+    "lanes:backward": "2",
+    "lanes:forward": "1",
+    "maxspeed": "30",
+    "name": "Rantakatu",
+    "name:fi": "Rantakatu",
+    "surface": "asphalt",
+    "turn:lanes:backward": "left|through;right"
+  }
+},
+{
+  "type": "way",
+  "id": 43967336,
+  "nodes": [
+    252035910,
+    633440032,
+    6064082081
+  ],
+  "tags": {
+    "destination:lanes:backward": "Rantakatu|Elielinkuja;Rantakatu",
+    "highway": "residential",
+    "lanes": "3",
+    "lanes:backward": "2",
+    "lanes:forward": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Koskikatu",
+    "name:fi": "Koskikatu",
+    "parking:both": "no",
+    "surface": "asphalt",
+    "turn:lanes:backward": "left|through;right"
+  }
+},
+{
+  "type": "way",
+  "id": 43971382,
+  "nodes": [
+    278129270,
+    278129260,
+    260236511,
+    278129262,
+    252035911
+  ],
+  "tags": {
+    "foot": "yes",
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Kirkkokatu",
+    "name:fi": "Kirkkokatu",
+    "parking:lane:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 49705657,
+  "nodes": [
+    3788854396,
+    4443957534,
+    3862474319,
+    4443957537,
+    4443957540,
+    4443957542,
+    3788854404
+  ],
+  "tags": {
+    "highway": "secondary",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Rantakatu",
+    "name:fi": "Rantakatu",
+    "oneway": "yes",
+    "source": "MML ORTO",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 86338796,
+  "nodes": [
+    1002940165,
+    286098432
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "highway": "tertiary",
+    "lanes": "2",
+    "maxspeed": "30",
+    "name": "Siltakatu",
+    "name:fi": "Siltakatu",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 184420509,
+  "nodes": [
+    322123677,
+    3726330617,
+    3670034682,
+    4589984389,
+    945830823,
+    252035913
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Torikatu",
+    "name:fi": "Torikatu",
+    "parking:lane:both": "parallel",
+    "parking:lane:both:parallel": "painted_area_only",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 184420512,
+  "nodes": [
+    253329477,
+    11521892936
+  ],
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "maxspeed": "30",
+    "name": "Koskikatu",
+    "name:fi": "Koskikatu",
+    "parking:lane:both": "no",
+    "surface": "paving_stones",
+    "traffic_calming": "table"
+  }
+},
+{
+  "type": "way",
+  "id": 190303411,
+  "nodes": [
+    633440013,
+    2009071979
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "bridge": "movable",
+    "bridge:movable": "lift",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "40",
+    "maxspeed:type": "sign",
+    "maxweight:signed": "no",
+    "name": "Suvantokatu",
+    "name:fi": "Suvantokatu",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 190303415,
+  "nodes": [
+    2009071979,
+    4443957497,
+    843235557,
+    241418983,
+    1907230484,
+    843235520,
+    241418984,
+    1907230478,
+    843235517
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "40",
+    "maxweight:signed": "no",
+    "name": "Suvantosilta",
+    "name:fi": "Suvantokatu",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 232636114,
+  "nodes": [
+    2409765960,
+    11745463
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "bridge": "yes",
+    "highway": "tertiary",
+    "lanes": "2",
+    "layer": "1",
+    "maxbogieweight": "18",
+    "maxspeed": "30",
+    "name": "Siltakatu",
+    "name:fi": "Siltakatu",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 288437162,
+  "nodes": [
+    3713701530,
+    9670061010,
+    631754226,
+    253548254
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "40",
+    "name": "Suvantokatu",
+    "name:fi": "Suvantokatu",
+    "parking:lane:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 375524510,
+  "nodes": [
+    3788854412,
+    3788854399,
+    3788854413,
+    3788854400,
+    3788854409,
+    4444070889,
+    3788854401,
+    3788854398,
+    3788854406,
+    3788854411,
+    4443957521,
+    3788854405,
+    3788854403,
+    3788854407,
+    4443957526,
+    3788854395,
+    3788854408,
+    3788854396,
+    3788854412
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "foot": "no",
+    "highway": "primary",
+    "junction": "roundabout",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "oneway": "yes",
+    "source": "MML ORTO",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 447221864,
+  "nodes": [
+    3788854404,
+    4444070896,
+    633440027,
+    252035910
+  ],
+  "tags": {
+    "destination:lanes:forward": "Koskikatu|Rantakatu;Elielinkuja",
+    "highway": "secondary",
+    "lanes": "3",
+    "lanes:backward": "1",
+    "lanes:forward": "2",
+    "maxspeed": "30",
+    "name": "Rantakatu",
+    "name:fi": "Rantakatu",
+    "surface": "asphalt",
+    "turn:lanes:forward": "left|through;right"
+  }
+},
+{
+  "type": "way",
+  "id": 447221865,
+  "nodes": [
+    4443957506,
+    4443957509,
+    3788854402,
+    3862474322,
+    4443957518,
+    3788854405
+  ],
+  "tags": {
+    "cycleway:right": "separate",
+    "highway": "tertiary",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Rantakatu",
+    "name:fi": "Rantakatu",
+    "oneway": "yes",
+    "source": "MML ORTO",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 447221866,
+  "nodes": [
+    3788854406,
+    4443957523,
+    4443957515,
+    4443957514,
+    4443957512,
+    4443957510,
+    4443957506
+  ],
+  "tags": {
+    "cycleway:right": "no",
+    "foot": "no",
+    "highway": "tertiary",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "Rantakatu",
+    "name:fi": "Rantakatu",
+    "oneway": "yes",
+    "sidewalk": "none",
+    "source": "MML ORTO",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 447221867,
+  "nodes": [
+    3788854404,
+    4443957543,
+    4443957541,
+    4443957539,
+    4443957538,
+    4443957536,
+    4443957535,
+    3788854413
+  ],
+  "tags": {
+    "highway": "secondary",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Rantakatu",
+    "name:fi": "Rantakatu",
+    "oneway": "yes",
+    "source": "MML ORTO",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 447221868,
+  "nodes": [
+    3788854409,
+    4444070891,
+    631754243
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Suvantokatu",
+    "name:fi": "Suvantokatu",
+    "oneway": "yes",
+    "source": "MML ORTO",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 447221869,
+  "nodes": [
+    631754243,
+    4444070890,
+    4443957530,
+    3788854398
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Suvantokatu",
+    "name:fi": "Suvantokatu",
+    "oneway": "yes",
+    "source": "MML ORTO",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 447221870,
+  "nodes": [
+    241418981,
+    4443957522,
+    4443957527,
+    3788854408
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "highway": "primary",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Suvantokatu",
+    "name:fi": "Suvantokatu",
+    "oneway": "yes",
+    "source": "MML ORTO",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502625625,
+  "nodes": [
+    278129264,
+    11061785649,
+    278129265,
+    252035912,
+    322123677
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Torikatu",
+    "name:fi": "Torikatu",
+    "parking:both": "no",
+    "smoothness": "intermediate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 512973701,
+  "nodes": [
+    260107344,
+    9817705203,
+    278129267,
+    5045445110
+  ],
+  "tags": {
+    "highway": "secondary",
+    "lane_markings": "no",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Rantakatu",
+    "oneway": "yes",
+    "parking:lane:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 512973704,
+  "nodes": [
+    5045445111,
+    6051919965,
+    6051919963,
+    6051919964,
+    11745463
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Siltakatu",
+    "name:fi": "Siltakatu",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 516910381,
+  "nodes": [
+    416615361,
+    5045445106,
+    5045445116
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "highway": "secondary",
+    "lane_markings": "no",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Rantakatu",
+    "oneway": "yes",
+    "parking:lane:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 516910382,
+  "nodes": [
+    11524139538,
+    5045445107,
+    416615361
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "highway": "secondary",
+    "lane_markings": "no",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Rantakatu",
+    "oneway": "yes",
+    "parking:lane:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 516910383,
+  "nodes": [
+    6051615563,
+    5045445113,
+    6051615564,
+    5045445100,
+    5045445117
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "highway": "secondary",
+    "junction": "roundabout",
+    "lane_markings": "no",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 516910384,
+  "nodes": [
+    6051615565,
+    5045445109,
+    11524139539,
+    5045445108
+  ],
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Siltakatu",
+    "oneway": "yes",
+    "parking:lane:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 516910385,
+  "nodes": [
+    5045445110,
+    5045445105,
+    9817705204,
+    11524171507
+  ],
+  "tags": {
+    "highway": "secondary",
+    "lane_markings": "no",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Rantakatu",
+    "oneway": "yes",
+    "parking:lane:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 516910386,
+  "nodes": [
+    5045445111,
+    613172704,
+    5045445117
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Siltakatu",
+    "oneway": "yes",
+    "parking:lane:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 516910387,
+  "nodes": [
+    6051615563,
+    5045445112,
+    5045445111
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "lanes": "1",
+    "lit": "yes",
+    "name": "Siltakatu",
+    "oneway": "yes",
+    "parking:lane:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 516910388,
+  "nodes": [
+    260107344,
+    5045445102,
+    5045445115,
+    5045445101,
+    11524171507
+  ],
+  "tags": {
+    "highway": "secondary",
+    "junction": "roundabout",
+    "lane_markings": "no",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 538535079,
+  "nodes": [
+    253548585,
+    625884139,
+    3726312085,
+    3726312089,
+    3726312097,
+    5590251317,
+    322123545,
+    253329477
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Torikatu",
+    "name:fi": "Torikatu",
+    "parking:lane:right": "parallel",
+    "parking:lane:right:parallel": "painted_area_only",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 538535082,
+  "nodes": [
+    11521892936,
+    10157253452
+  ],
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Koskikatu",
+    "name:fi": "Koskikatu",
+    "parking:lane:both": "no",
+    "smoothness": "excellent",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 608977018,
+  "nodes": [
+    633440020,
+    6130171375,
+    253329477
+  ],
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "maxspeed": "30",
+    "name": "Koskikatu",
+    "name:fi": "Koskikatu",
+    "parking:lane:both": "no",
+    "psv": "yes",
+    "surface": "paving_stones",
+    "traffic_calming": "table"
+  }
+},
+{
+  "type": "way",
+  "id": 642939875,
+  "nodes": [
+    5045445108,
+    11524139540,
+    1002940476,
+    9817705205,
+    5045445118
+  ],
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Siltakatu",
+    "oneway": "yes",
+    "parking:lane:both": "no",
+    "sidewalk": "right",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 643185635,
+  "nodes": [
+    5045445116,
+    6051615565,
+    5045445103,
+    5045445118,
+    260107344
+  ],
+  "tags": {
+    "highway": "secondary",
+    "junction": "roundabout",
+    "lane_markings": "no",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 643536339,
+  "nodes": [
+    519639130,
+    6077560316,
+    6055953099
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Koskikatu",
+    "name:fi": "Koskikatu",
+    "parking:lane:both": "no",
+    "smoothness": "excellent",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 644968621,
+  "nodes": [
+    6064082081,
+    633440020
+  ],
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Koskikatu",
+    "name:fi": "Koskikatu",
+    "parking:lane:both": "no",
+    "sidewalk": "none",
+    "smoothness": "intermediate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 647038897,
+  "nodes": [
+    6055953099,
+    6077560315
+  ],
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lanes": "2",
+    "maxspeed": "30",
+    "name": "Koskikatu",
+    "name:fi": "Koskikatu",
+    "parking:lane:both": "no",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 692060853,
+  "nodes": [
+    6496133327,
+    944896476,
+    3713701391,
+    278124451,
+    3713701388,
+    9670060991,
+    9670060988,
+    3713701377,
+    35132092
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Malmikatu",
+    "name:fi": "Malmikatu",
+    "parking:lane:left": "no",
+    "parking:lane:right": "parallel",
+    "parking:lane:right:parallel": "on_street",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 692060858,
+  "nodes": [
+    8088175055,
+    614482640,
+    253548254
+  ],
+  "tags": {
+    "bicycle": "designated",
+    "cyclestreet": "yes",
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "motor_vehicle": "yes",
+    "name": "Kauppakatu",
+    "name:fi": "Kauppakatu",
+    "parking:lane:left": "separate",
+    "parking:lane:right": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 737292492,
+  "nodes": [
+    253548585,
+    631754237,
+    9179812400
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "4",
+    "lanes:backward": "3",
+    "lanes:forward": "1",
+    "maxspeed": "30",
+    "name": "Suvantokatu",
+    "name:fi": "Suvantokatu",
+    "surface": "asphalt",
+    "turn:lanes:backward": "left|through|right"
+  }
+},
+{
+  "type": "way",
+  "id": 925581600,
+  "nodes": [
+    1002940804,
+    5045445110
+  ],
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Rantakatu",
+    "name:fi": "Rantakatu",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 931777776,
+  "nodes": [
+    8638221405,
+    631754233
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "3",
+    "lanes:backward": "1",
+    "lanes:forward": "2",
+    "maxspeed": "30",
+    "name": "Suvantokatu",
+    "name:fi": "Suvantokatu",
+    "parking:lane:both": "no",
+    "surface": "asphalt",
+    "turn:lanes:forward": "left|through;right"
+  }
+},
+{
+  "type": "way",
+  "id": 931777972,
+  "nodes": [
+    253548254,
+    631754240,
+    8638221405
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "3",
+    "lanes:backward": "2",
+    "lanes:forward": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Suvantokatu",
+    "name:fi": "Suvantokatu",
+    "parking:lane:both": "no",
+    "surface": "asphalt",
+    "turn:lanes:backward": "left|through"
+  }
+},
+{
+  "type": "way",
+  "id": 993616758,
+  "nodes": [
+    9179812400,
+    631754243
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "3",
+    "lanes:backward": "2",
+    "lanes:forward": "1",
+    "maxspeed": "40",
+    "name": "Suvantokatu",
+    "name:fi": "Suvantokatu",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 993616759,
+  "nodes": [
+    631754233,
+    253548585
+  ],
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lane_markings": "no",
+    "maxspeed": "40",
+    "name": "Suvantokatu",
+    "name:fi": "Suvantokatu",
+    "parking:lane:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1110306471,
+  "nodes": [
+    253329477,
+    278129264
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Torikatu",
+    "name:fi": "Torikatu",
+    "parking:lane:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1110306830,
+  "nodes": [
+    10157253452,
+    519639131
+  ],
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Koskikatu",
+    "name:fi": "Koskikatu",
+    "parking:lane:left": "parallel",
+    "parking:lane:left:parallel": "painted_area_only",
+    "parking:lane:right": "no",
+    "smoothness": "excellent",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1112478612,
+  "nodes": [
+    6496133324,
+    8088175055
+  ],
+  "tags": {
+    "bicycle": "designated",
+    "cyclestreet": "yes",
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "motor_vehicle": "yes",
+    "name": "Kauppakatu",
+    "name:fi": "Kauppakatu",
+    "parking:lane:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1240367615,
+  "nodes": [
+    11524171507,
+    6051615563
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "highway": "secondary",
+    "junction": "roundabout",
+    "lane_markings": "no",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "node",
+  "id": 11745463,
+  "lat": 62.6003022,
+  "lon": 29.7673099
+},
+{
+  "type": "node",
+  "id": 11745466,
+  "lat": 62.5999520,
+  "lon": 29.7700918
+},
+{
+  "type": "node",
+  "id": 35132092,
+  "lat": 62.5968023,
+  "lon": 29.7618199
+},
+{
+  "type": "node",
+  "id": 60182447,
+  "lat": 62.5946012,
+  "lon": 29.7573774
+},
+{
+  "type": "node",
+  "id": 241418981,
+  "lat": 62.5978684,
+  "lon": 29.7638419
+},
+{
+  "type": "node",
+  "id": 241418983,
+  "lat": 62.5965303,
+  "lon": 29.7677671
+},
+{
+  "type": "node",
+  "id": 241418984,
+  "lat": 62.5961718,
+  "lon": 29.7696168
+},
+{
+  "type": "node",
+  "id": 252035910,
+  "lat": 62.5994679,
+  "lon": 29.7642296
+},
+{
+  "type": "node",
+  "id": 252035911,
+  "lat": 62.6006030,
+  "lon": 29.7583636
+},
+{
+  "type": "node",
+  "id": 252035912,
+  "lat": 62.6010597,
+  "lon": 29.7634649
+},
+{
+  "type": "node",
+  "id": 252035913,
+  "lat": 62.6024196,
+  "lon": 29.7646795
+},
+{
+  "type": "node",
+  "id": 253329477,
+  "lat": 62.5998379,
+  "lon": 29.7623241
+},
+{
+  "type": "node",
+  "id": 253332473,
+  "lat": 62.5951548,
+  "lon": 29.7579878
+},
+{
+  "type": "node",
+  "id": 253548254,
+  "lat": 62.5988519,
+  "lon": 29.7591907
+},
+{
+  "type": "node",
+  "id": 253548585,
+  "lat": 62.5984796,
+  "lon": 29.7610844
+},
+{
+  "type": "node",
+  "id": 257341180,
+  "lat": 62.6012733,
+  "lon": 29.7659133
+},
+{
+  "type": "node",
+  "id": 260107344,
+  "lat": 62.6006368,
+  "lon": 29.7651878
+},
+{
+  "type": "node",
+  "id": 260236511,
+  "lat": 62.6011071,
+  "lon": 29.7588309
+},
+{
+  "type": "node",
+  "id": 260236512,
+  "lat": 62.6008117,
+  "lon": 29.7603135
+},
+{
+  "type": "node",
+  "id": 278124451,
+  "lat": 62.5971776,
+  "lon": 29.7599000
+},
+{
+  "type": "node",
+  "id": 278124452,
+  "lat": 62.5958778,
+  "lon": 29.7586726
+},
+{
+  "type": "node",
+  "id": 278129260,
+  "lat": 62.6012262,
+  "lon": 29.7589426
+},
+{
+  "type": "node",
+  "id": 278129262,
+  "lat": 62.6006984,
+  "lon": 29.7584482
+},
+{
+  "type": "node",
+  "id": 278129264,
+  "lat": 62.5999300,
+  "lon": 29.7624098
+},
+{
+  "type": "node",
+  "id": 278129265,
+  "lat": 62.6009727,
+  "lon": 29.7633854
+},
+{
+  "type": "node",
+  "id": 278129266,
+  "lat": 62.5995543,
+  "lon": 29.7643081
+},
+{
+  "type": "node",
+  "id": 278129267,
+  "lat": 62.6005614,
+  "lon": 29.7651771
+},
+{
+  "type": "node",
+  "id": 278129270,
+  "lat": 62.6017312,
+  "lon": 29.7594151
+},
+{
+  "type": "node",
+  "id": 286098432,
+  "lat": 62.6002359,
+  "lon": 29.7678461
+},
+{
+  "type": "node",
+  "id": 322123545,
+  "lat": 62.5997585,
+  "lon": 29.7622517
+},
+{
+  "type": "node",
+  "id": 322123677,
+  "lat": 62.6011490,
+  "lon": 29.7635446
+},
+{
+  "type": "node",
+  "id": 348429012,
+  "lat": 62.6002151,
+  "lon": 29.7604017
+},
+{
+  "type": "node",
+  "id": 416615361,
+  "lat": 62.6009772,
+  "lon": 29.7656353
+},
+{
+  "type": "node",
+  "id": 519639130,
+  "lat": 62.6002399,
+  "lon": 29.7602703
+},
+{
+  "type": "node",
+  "id": 519639131,
+  "lat": 62.6001817,
+  "lon": 29.7605782
+},
+{
+  "type": "node",
+  "id": 613172704,
+  "lat": 62.6006704,
+  "lon": 29.7657803
+},
+{
+  "type": "node",
+  "id": 614482640,
+  "lat": 62.5987705,
+  "lon": 29.7591581
+},
+{
+  "type": "node",
+  "id": 614482642,
+  "lat": 62.5983913,
+  "lon": 29.7610105
+},
+{
+  "type": "node",
+  "id": 625884139,
+  "lat": 62.5985525,
+  "lon": 29.7611510
+},
+{
+  "type": "node",
+  "id": 631754214,
+  "lat": 62.5958223,
+  "lon": 29.7586240
+},
+{
+  "type": "node",
+  "id": 631754215,
+  "lat": 62.5959300,
+  "lon": 29.7587184
+},
+{
+  "type": "node",
+  "id": 631754218,
+  "lat": 62.5954297,
+  "lon": 29.7603580
+},
+{
+  "type": "node",
+  "id": 631754221,
+  "lat": 62.5955937,
+  "lon": 29.7606967
+},
+{
+  "type": "node",
+  "id": 631754226,
+  "lat": 62.5988857,
+  "lon": 29.7590196
+},
+{
+  "type": "node",
+  "id": 631754233,
+  "lat": 62.5985190,
+  "lon": 29.7608842
+},
+{
+  "type": "node",
+  "id": 631754237,
+  "lat": 62.5984403,
+  "lon": 29.7612841
+},
+{
+  "type": "node",
+  "id": 631754240,
+  "lat": 62.5988170,
+  "lon": 29.7593681
+},
+{
+  "type": "node",
+  "id": 631754243,
+  "lat": 62.5981939,
+  "lon": 29.7625416
+},
+{
+  "type": "node",
+  "id": 633440013,
+  "lat": 62.5972857,
+  "lon": 29.7654691
+},
+{
+  "type": "node",
+  "id": 633440020,
+  "lat": 62.5998000,
+  "lon": 29.7625194
+},
+{
+  "type": "node",
+  "id": 633440027,
+  "lat": 62.5993720,
+  "lon": 29.7641394
+},
+{
+  "type": "node",
+  "id": 633440032,
+  "lat": 62.5994967,
+  "lon": 29.7640812
+},
+{
+  "type": "node",
+  "id": 638992139,
+  "lat": 62.5947317,
+  "lon": 29.7579831
+},
+{
+  "type": "node",
+  "id": 798645225,
+  "lat": 62.6010763,
+  "lon": 29.7589940
+},
+{
+  "type": "node",
+  "id": 843235517,
+  "lat": 62.5960228,
+  "lon": 29.7709848
+},
+{
+  "type": "node",
+  "id": 843235520,
+  "lat": 62.5962896,
+  "lon": 29.7688792
+},
+{
+  "type": "node",
+  "id": 843235557,
+  "lat": 62.5967192,
+  "lon": 29.7670801
+},
+{
+  "type": "node",
+  "id": 944896463,
+  "lat": 62.5975955,
+  "lon": 29.7602882
+},
+{
+  "type": "node",
+  "id": 944896476,
+  "lat": 62.5973624,
+  "lon": 29.7589761
+},
+{
+  "type": "node",
+  "id": 945830823,
+  "lat": 62.6023443,
+  "lon": 29.7646157
+},
+{
+  "type": "node",
+  "id": 1002940109,
+  "lat": 62.6010267,
+  "lon": 29.7636451
+},
+{
+  "type": "node",
+  "id": 1002940165,
+  "lat": 62.6001115,
+  "lon": 29.7688609
+},
+{
+  "type": "node",
+  "id": 1002940476,
+  "lat": 62.6007082,
+  "lon": 29.7650018
+},
+{
+  "type": "node",
+  "id": 1002940804,
+  "lat": 62.6000953,
+  "lon": 29.7648083
+},
+{
+  "type": "node",
+  "id": 1044998010,
+  "lat": 62.5945956,
+  "lon": 29.7574598
+},
+{
+  "type": "node",
+  "id": 1044998084,
+  "lat": 62.5946097,
+  "lon": 29.7575683
+},
+{
+  "type": "node",
+  "id": 1906501237,
+  "lat": 62.5955078,
+  "lon": 29.7605644
+},
+{
+  "type": "node",
+  "id": 1907230478,
+  "lat": 62.5961047,
+  "lon": 29.7701447
+},
+{
+  "type": "node",
+  "id": 1907230484,
+  "lat": 62.5964052,
+  "lon": 29.7683229
+},
+{
+  "type": "node",
+  "id": 2009071979,
+  "lat": 62.5970627,
+  "lon": 29.7660873
+},
+{
+  "type": "node",
+  "id": 2409765960,
+  "lat": 62.6002799,
+  "lon": 29.7674900
+},
+{
+  "type": "node",
+  "id": 3670034682,
+  "lat": 62.6015797,
+  "lon": 29.7639433
+},
+{
+  "type": "node",
+  "id": 3713113444,
+  "lat": 62.6005674,
+  "lon": 29.7585471
+},
+{
+  "type": "node",
+  "id": 3713113447,
+  "lat": 62.6014058,
+  "lon": 29.7660346
+},
+{
+  "type": "node",
+  "id": 3713701373,
+  "lat": 62.5967187,
+  "lon": 29.7617422
+},
+{
+  "type": "node",
+  "id": 3713701377,
+  "lat": 62.5968298,
+  "lon": 29.7616791
+},
+{
+  "type": "node",
+  "id": 3713701379,
+  "lat": 62.5968665,
+  "lon": 29.7618799
+},
+{
+  "type": "node",
+  "id": 3713701386,
+  "lat": 62.5970957,
+  "lon": 29.7598223
+},
+{
+  "type": "node",
+  "id": 3713701388,
+  "lat": 62.5971468,
+  "lon": 29.7600578
+},
+{
+  "type": "node",
+  "id": 3713701391,
+  "lat": 62.5972084,
+  "lon": 29.7597460
+},
+{
+  "type": "node",
+  "id": 3713701393,
+  "lat": 62.5972528,
+  "lon": 29.7599691
+},
+{
+  "type": "node",
+  "id": 3713701530,
+  "lat": 62.5992179,
+  "lon": 29.7573283
+},
+{
+  "type": "node",
+  "id": 3726312085,
+  "lat": 62.5988619,
+  "lon": 29.7614350
+},
+{
+  "type": "node",
+  "id": 3726312089,
+  "lat": 62.5989435,
+  "lon": 29.7615078
+},
+{
+  "type": "node",
+  "id": 3726312097,
+  "lat": 62.5991278,
+  "lon": 29.7616760
+},
+{
+  "type": "node",
+  "id": 3726330617,
+  "lat": 62.6015010,
+  "lon": 29.7638705
+},
+{
+  "type": "node",
+  "id": 3788854395,
+  "lat": 62.5980349,
+  "lon": 29.7635218
+},
+{
+  "type": "node",
+  "id": 3788854396,
+  "lat": 62.5981139,
+  "lon": 29.7634846
+},
+{
+  "type": "node",
+  "id": 3788854398,
+  "lat": 62.5980356,
+  "lon": 29.7630127
+},
+{
+  "type": "node",
+  "id": 3788854399,
+  "lat": 62.5981649,
+  "lon": 29.7633350
+},
+{
+  "type": "node",
+  "id": 3788854400,
+  "lat": 62.5981543,
+  "lon": 29.7631428
+},
+{
+  "type": "node",
+  "id": 3788854401,
+  "lat": 62.5980721,
+  "lon": 29.7630102
+},
+{
+  "type": "node",
+  "id": 3788854402,
+  "lat": 62.5977856,
+  "lon": 29.7629775
+},
+{
+  "type": "node",
+  "id": 3788854403,
+  "lat": 62.5979415,
+  "lon": 29.7633646
+},
+{
+  "type": "node",
+  "id": 3788854404,
+  "lat": 62.5986887,
+  "lon": 29.7635185
+},
+{
+  "type": "node",
+  "id": 3788854405,
+  "lat": 62.5979316,
+  "lon": 29.7632958
+},
+{
+  "type": "node",
+  "id": 3788854406,
+  "lat": 62.5979884,
+  "lon": 29.7630493
+},
+{
+  "type": "node",
+  "id": 3788854407,
+  "lat": 62.5979563,
+  "lon": 29.7634213
+},
+{
+  "type": "node",
+  "id": 3788854408,
+  "lat": 62.5980763,
+  "lon": 29.7635182
+},
+{
+  "type": "node",
+  "id": 3788854409,
+  "lat": 62.5981369,
+  "lon": 29.7630805
+},
+{
+  "type": "node",
+  "id": 3788854411,
+  "lat": 62.5979586,
+  "lon": 29.7631069
+},
+{
+  "type": "node",
+  "id": 3788854412,
+  "lat": 62.5981459,
+  "lon": 29.7634200
+},
+{
+  "type": "node",
+  "id": 3788854413,
+  "lat": 62.5981685,
+  "lon": 29.7632410
+},
+{
+  "type": "node",
+  "id": 3862474319,
+  "lat": 62.5982425,
+  "lon": 29.7635224
+},
+{
+  "type": "node",
+  "id": 3862474322,
+  "lat": 62.5978550,
+  "lon": 29.7631013
+},
+{
+  "type": "node",
+  "id": 4443957497,
+  "lat": 62.5968635,
+  "lon": 29.7666396
+},
+{
+  "type": "node",
+  "id": 4443957503,
+  "lat": 62.5974771,
+  "lon": 29.7624312
+},
+{
+  "type": "node",
+  "id": 4443957506,
+  "lat": 62.5976067,
+  "lon": 29.7625600
+},
+{
+  "type": "node",
+  "id": 4443957509,
+  "lat": 62.5976845,
+  "lon": 29.7627263
+},
+{
+  "type": "node",
+  "id": 4443957510,
+  "lat": 62.5977036,
+  "lon": 29.7626639
+},
+{
+  "type": "node",
+  "id": 4443957512,
+  "lat": 62.5977641,
+  "lon": 29.7627631
+},
+{
+  "type": "node",
+  "id": 4443957514,
+  "lat": 62.5978468,
+  "lon": 29.7629214
+},
+{
+  "type": "node",
+  "id": 4443957515,
+  "lat": 62.5978897,
+  "lon": 29.7629901
+},
+{
+  "type": "node",
+  "id": 4443957518,
+  "lat": 62.5979017,
+  "lon": 29.7631930
+},
+{
+  "type": "node",
+  "id": 4443957520,
+  "lat": 62.5979301,
+  "lon": 29.7635980
+},
+{
+  "type": "node",
+  "id": 4443957521,
+  "lat": 62.5979387,
+  "lon": 29.7631865
+},
+{
+  "type": "node",
+  "id": 4443957522,
+  "lat": 62.5979449,
+  "lon": 29.7637053
+},
+{
+  "type": "node",
+  "id": 4443957523,
+  "lat": 62.5979517,
+  "lon": 29.7630575
+},
+{
+  "type": "node",
+  "id": 4443957526,
+  "lat": 62.5979939,
+  "lon": 29.7634923
+},
+{
+  "type": "node",
+  "id": 4443957527,
+  "lat": 62.5980005,
+  "lon": 29.7635980
+},
+{
+  "type": "node",
+  "id": 4443957530,
+  "lat": 62.5980829,
+  "lon": 29.7629123
+},
+{
+  "type": "node",
+  "id": 4443957534,
+  "lat": 62.5981659,
+  "lon": 29.7634826
+},
+{
+  "type": "node",
+  "id": 4443957535,
+  "lat": 62.5982153,
+  "lon": 29.7633217
+},
+{
+  "type": "node",
+  "id": 4443957536,
+  "lat": 62.5982501,
+  "lon": 29.7633669
+},
+{
+  "type": "node",
+  "id": 4443957537,
+  "lat": 62.5983165,
+  "lon": 29.7635229
+},
+{
+  "type": "node",
+  "id": 4443957538,
+  "lat": 62.5983251,
+  "lon": 29.7633834
+},
+{
+  "type": "node",
+  "id": 4443957539,
+  "lat": 62.5984029,
+  "lon": 29.7633646
+},
+{
+  "type": "node",
+  "id": 4443957540,
+  "lat": 62.5984473,
+  "lon": 29.7634759
+},
+{
+  "type": "node",
+  "id": 4443957541,
+  "lat": 62.5984967,
+  "lon": 29.7633807
+},
+{
+  "type": "node",
+  "id": 4443957542,
+  "lat": 62.5985411,
+  "lon": 29.7634719
+},
+{
+  "type": "node",
+  "id": 4443957543,
+  "lat": 62.5985523,
+  "lon": 29.7633995
+},
+{
+  "type": "node",
+  "id": 4444070887,
+  "lat": 62.5974590,
+  "lon": 29.7624149
+},
+{
+  "type": "node",
+  "id": 4444070889,
+  "lat": 62.5981100,
+  "lon": 29.7630414
+},
+{
+  "type": "node",
+  "id": 4444070890,
+  "lat": 62.5981179,
+  "lon": 29.7627952
+},
+{
+  "type": "node",
+  "id": 4444070891,
+  "lat": 62.5981622,
+  "lon": 29.7628415
+},
+{
+  "type": "node",
+  "id": 4444070896,
+  "lat": 62.5988126,
+  "lon": 29.7636372
+},
+{
+  "type": "node",
+  "id": 4589984389,
+  "lat": 62.6019788,
+  "lon": 29.7642837
+},
+{
+  "type": "node",
+  "id": 5045445098,
+  "lat": 62.6007959,
+  "lon": 29.7655854
+},
+{
+  "type": "node",
+  "id": 5045445099,
+  "lat": 62.6008232,
+  "lon": 29.7654927
+},
+{
+  "type": "node",
+  "id": 5045445100,
+  "lat": 62.6006873,
+  "lon": 29.7656592
+},
+{
+  "type": "node",
+  "id": 5045445101,
+  "lat": 62.6005879,
+  "lon": 29.7653994
+},
+{
+  "type": "node",
+  "id": 5045445102,
+  "lat": 62.6006105,
+  "lon": 29.7652460
+},
+{
+  "type": "node",
+  "id": 5045445103,
+  "lat": 62.6007256,
+  "lon": 29.7651377
+},
+{
+  "type": "node",
+  "id": 5045445104,
+  "lat": 62.6008308,
+  "lon": 29.7653839
+},
+{
+  "type": "node",
+  "id": 5045445105,
+  "lat": 62.6005422,
+  "lon": 29.7653172
+},
+{
+  "type": "node",
+  "id": 5045445106,
+  "lat": 62.6008804,
+  "lon": 29.7654620
+},
+{
+  "type": "node",
+  "id": 5045445107,
+  "lat": 62.6008541,
+  "lon": 29.7656148
+},
+{
+  "type": "node",
+  "id": 5045445108,
+  "lat": 62.6008925,
+  "lon": 29.7643089
+},
+{
+  "type": "node",
+  "id": 5045445109,
+  "lat": 62.6007829,
+  "lon": 29.7650355
+},
+{
+  "type": "node",
+  "id": 5045445110,
+  "lat": 62.6004296,
+  "lon": 29.7651106
+},
+{
+  "type": "node",
+  "id": 5045445111,
+  "lat": 62.6005126,
+  "lon": 29.7663664
+},
+{
+  "type": "node",
+  "id": 5045445112,
+  "lat": 62.6005897,
+  "lon": 29.7656943
+},
+{
+  "type": "node",
+  "id": 5045445113,
+  "lat": 62.6006291,
+  "lon": 29.7655977
+},
+{
+  "type": "node",
+  "id": 5045445115,
+  "lat": 62.6005937,
+  "lon": 29.7653189
+},
+{
+  "type": "node",
+  "id": 5045445116,
+  "lat": 62.6008173,
+  "lon": 29.7652778
+},
+{
+  "type": "node",
+  "id": 5045445117,
+  "lat": 62.6007199,
+  "lon": 29.7656627
+},
+{
+  "type": "node",
+  "id": 5045445118,
+  "lat": 62.6006764,
+  "lon": 29.7651454
+},
+{
+  "type": "node",
+  "id": 5144990345,
+  "lat": 62.5953643,
+  "lon": 29.7601417
+},
+{
+  "type": "node",
+  "id": 5144990348,
+  "lat": 62.5953189,
+  "lon": 29.7599809
+},
+{
+  "type": "node",
+  "id": 5590251317,
+  "lat": 62.5992958,
+  "lon": 29.7618293
+},
+{
+  "type": "node",
+  "id": 6051615563,
+  "lat": 62.6006077,
+  "lon": 29.7655440
+},
+{
+  "type": "node",
+  "id": 6051615564,
+  "lat": 62.6006563,
+  "lon": 29.7656370
+},
+{
+  "type": "node",
+  "id": 6051615565,
+  "lat": 62.6007722,
+  "lon": 29.7651733
+},
+{
+  "type": "node",
+  "id": 6051919963,
+  "lat": 62.6004119,
+  "lon": 29.7668874
+},
+{
+  "type": "node",
+  "id": 6051919964,
+  "lat": 62.6003527,
+  "lon": 29.7670832
+},
+{
+  "type": "node",
+  "id": 6051919965,
+  "lat": 62.6004465,
+  "lon": 29.7667399
+},
+{
+  "type": "node",
+  "id": 6055953099,
+  "lat": 62.6004003,
+  "lon": 29.7594219
+},
+{
+  "type": "node",
+  "id": 6064082081,
+  "lat": 62.5996040,
+  "lon": 29.7635287
+},
+{
+  "type": "node",
+  "id": 6077560315,
+  "lat": 62.6004946,
+  "lon": 29.7589234
+},
+{
+  "type": "node",
+  "id": 6077560316,
+  "lat": 62.6003193,
+  "lon": 29.7598504
+},
+{
+  "type": "node",
+  "id": 6130171375,
+  "lat": 62.5998132,
+  "lon": 29.7624501
+},
+{
+  "type": "node",
+  "id": 6496133324,
+  "lat": 62.5982556,
+  "lon": 29.7585306
+},
+{
+  "type": "node",
+  "id": 6496133327,
+  "lat": 62.5974614,
+  "lon": 29.7584602
+},
+{
+  "type": "node",
+  "id": 8088175055,
+  "lat": 62.5983209,
+  "lon": 29.7587550
+},
+{
+  "type": "node",
+  "id": 8638221405,
+  "lat": 62.5986545,
+  "lon": 29.7601948
+},
+{
+  "type": "node",
+  "id": 9179812400,
+  "lat": 62.5983064,
+  "lon": 29.7619676
+},
+{
+  "type": "node",
+  "id": 9670060988,
+  "lat": 62.5969353,
+  "lon": 29.7611394
+},
+{
+  "type": "node",
+  "id": 9670060991,
+  "lat": 62.5970020,
+  "lon": 29.7607983
+},
+{
+  "type": "node",
+  "id": 9670060996,
+  "lat": 62.5959525,
+  "lon": 29.7610302
+},
+{
+  "type": "node",
+  "id": 9670061010,
+  "lat": 62.5990624,
+  "lon": 29.7581201
+},
+{
+  "type": "node",
+  "id": 9817705203,
+  "lat": 62.6005941,
+  "lon": 29.7651813
+},
+{
+  "type": "node",
+  "id": 9817705204,
+  "lat": 62.6005691,
+  "lon": 29.7654023
+},
+{
+  "type": "node",
+  "id": 9817705205,
+  "lat": 62.6006917,
+  "lon": 29.7650800
+},
+{
+  "type": "node",
+  "id": 9817705206,
+  "lat": 62.5995981,
+  "lon": 29.7643490
+},
+{
+  "type": "node",
+  "id": 9817705207,
+  "lat": 62.5954466,
+  "lon": 29.7604026
+},
+{
+  "type": "node",
+  "id": 10157253452,
+  "lat": 62.6000162,
+  "lon": 29.7614147
+},
+{
+  "type": "node",
+  "id": 11061785649,
+  "lat": 62.6004635,
+  "lon": 29.7629090
+},
+{
+  "type": "node",
+  "id": 11521892936,
+  "lat": 62.5998546,
+  "lon": 29.7622388
+},
+{
+  "type": "node",
+  "id": 11524139538,
+  "lat": 62.6007535,
+  "lon": 29.7656457
+},
+{
+  "type": "node",
+  "id": 11524139539,
+  "lat": 62.6008532,
+  "lon": 29.7646478
+},
+{
+  "type": "node",
+  "id": 11524139540,
+  "lat": 62.6008026,
+  "lon": 29.7645888
+},
+{
+  "type": "node",
+  "id": 11524171507,
+  "lat": 62.6005881,
+  "lon": 29.7654571
+}
+
+  ]
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Self Driving Car</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <canvas id="carCanvas"></canvas>
+    <div id="verticalButtons">
+      <button onclick="save()">💾</button>
+      <button onclick="discard()">🗑️</button>
+      <!-- link to other pages -->
+      <button><a href="World-Editor/index.html">🌐</a></button>
+    </div>
+    <div>
+      <canvas id="networkCanvas"></canvas>
+      <canvas id="miniMapCanvas"></canvas>
+    </div>
+    <script src="World-Editor/scripts/world.js"></script>
+    <script src="World-Editor/scripts/viewport.js"></script>
+    <!-- markings -->
+    <script src="World-Editor/scripts/markings/marking.js"></script>
+    <script src="World-Editor/scripts/markings/stop.js"></script>
+    <script src="World-Editor/scripts/markings/crossing.js"></script>
+    <script src="World-Editor/scripts/markings/start.js"></script>
+    <script src="World-Editor/scripts/markings/target.js"></script>
+    <script src="World-Editor/scripts/markings/parking.js"></script>
+    <script src="World-Editor/scripts/markings/light.js"></script>
+    <script src="World-Editor/scripts/markings/yield.js"></script>
+    <!-- editor -->
+    <script src="World-Editor/scripts/editors/graphEditor.js"></script>
+    <script src="World-Editor/scripts/editors/markingEditor.js"></script>
+    <script src="World-Editor/scripts/editors/parkingEditor.js"></script>
+    <script src="World-Editor/scripts/editors/lightEditor.js"></script>
+    <script src="World-Editor/scripts/editors/yieldEditor.js"></script>
+    <script src="World-Editor/scripts/editors/targetEditor.js"></script>
+    <script src="World-Editor/scripts/editors/stopEditor.js"></script>
+    <script src="World-Editor/scripts/editors/crossingEditor.js"></script>
+    <script src="World-Editor/scripts/editors/startEditor.js"></script>
+    <!-- items -->
+    <script src="World-Editor/scripts/items/tree.js"></script>
+    <script src="World-Editor/scripts/items/building.js"></script>
+    <!-- logics -->
+    <script src="World-Editor/scripts/maths/graph.js"></script>
+    <script src="World-Editor/scripts/maths/utils.js"></script>
+    <script src="World-Editor/scripts/maths/primitives/point.js"></script>
+    <script src="World-Editor/scripts/maths/primitives/segment.js"></script>
+    <script src="World-Editor/scripts/maths/primitives/polygon.js"></script>
+    <script src="World-Editor/scripts/maths/primitives/envelope.js "></script>
+    <!-- load data -->
+    <script src="World-Editor/save-worlds/path-finding.world"></script>
+    <script src="saves/rightHandRule.car"></script>
+    <!-- car-Logic -->
+    <script src="scripts/miniMap.js"></script>
+    <script src="scripts/visualizer.js"></script>
+    <script src="scripts/network.js"></script>
+    <script src="scripts/sensor.js"></script>
+    <script src="scripts/utils.js"></script>
+    <script src="scripts/controls.js"></script>
+    <script src="scripts/car.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
